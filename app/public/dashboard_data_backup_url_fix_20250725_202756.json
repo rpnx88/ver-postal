@@ -1,0 +1,569 @@
+{
+  "metadata": {
+    "title": "Dashboard de Indicações Interativo",
+    "total_categorias": 8,
+    "total_indicacoes": 78,
+    "data_processamento": "2025-07-24",
+    "last_update": "2025-07-23T02:42:30Z"
+  },
+  "chart_data": [
+    {
+      "categoria": "Iluminação Pública",
+      "quantidade": 14,
+      "sheet_name": "Iluminacao_Pública"
+    },
+    {
+      "categoria": "Sinalização e Trânsito",
+      "quantidade": 17,
+      "sheet_name": "Sinalizacao_e_Trânsito"
+    },
+    {
+      "categoria": "Pavimentação e Vias",
+      "quantidade": 23,
+      "sheet_name": "Pavimentacao_e_Vias"
+    },
+    {
+      "categoria": "Manutenção e Limpeza Urbana",
+      "quantidade": 10,
+      "sheet_name": "Manutencao_e_Limpeza_Urbana"
+    },
+    {
+      "categoria": "Gestão de Resíduos",
+      "quantidade": 7,
+      "sheet_name": "Gestao_de_Resíduos"
+    },
+    {
+      "categoria": "Planejamento Urbano e Programas",
+      "quantidade": 4,
+      "sheet_name": "Planejamento_Urbano_e_Programas"
+    },
+    {
+      "categoria": "Espaços Públicos e Infraestrutura",
+      "quantidade": 2,
+      "sheet_name": "Espaços_Públicos_e_Infraestrutura"
+    },
+    {
+      "categoria": "Prédios Públicos",
+      "quantidade": 1,
+      "sheet_name": "Prédios_Públicos"
+    }
+  ],
+  "details": {
+    "Iluminação Pública": {
+      "sheet_name": "Iluminação_Pública",
+      "total_indicacoes": 14,
+      "indicacoes": [
+        {
+          "numero": "IND 341/2025",
+          "descricao": "Solicita ao Poder Público Municipal através da Secretaria de Gestão Integrada e Mobilidade Urbana, a troca de lâmpada, reator ou fotocélula na Rua Angelo Marcon, nº 581, bairro São Roque.",
+          "rua": "Rua Ângelo Marcon",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32035"
+        },
+        {
+          "numero": "IND 336/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal através da Secretaria de Gestão Integrada e Mobilidade Urbana, a substituição de lâmpada na Rua Fiorelo Ross, nº 133, bairro Fenavinho.",
+          "rua": "Rua Fiorelo Ross",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32030"
+        },
+        {
+          "numero": "IND 327/2025",
+          "descricao": "Solicita ao Poder Executivo, por meio da Secretaria Municipal de Gestão Integrada e Mobilidade Urbana, a substituição de lâmpada queimada na Travessa Lucindo Ozelame, BR 470, próximo ao trevo para Faria Lemos.",
+          "rua": "Travessa Lucindo Ozelame",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32018"
+        },
+        {
+          "numero": "IND 313/2025",
+          "descricao": "Solicita ao Poder Executivo, por meio da Secretaria Municipal de Gestão Integrada e Mobilidade Urbana, a troca de lâmpadas de iluminação pública na Via adjacente à BR 470 em frente ao CRD 00111 no Distrito de Tuiuty.",
+          "rua": "Via adjacente à BR 470",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32000"
+        },
+        {
+          "numero": "IND 248/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal, através da Secretaria competente, a substituição de lâmpada na Rua Joaquim Manfredini em frente ao logradouro nº 67, bairro Borgo.",
+          "rua": "Rua Joaquim Manfredini",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31914"
+        },
+        {
+          "numero": "IND 98/2025",
+          "descricao": "Solicita ao Poder Público Municipal, através da Secretaria Municipal de Gestão Integrada e Mobilidade Urbana, a troca de lâmpada na esquina Joaquim Manfredini com a Cavalheiro José Farina, bairro São Francisco.",
+          "rua": "Localização não especificada",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31717"
+        },
+        {
+          "numero": "IND 16/2025",
+          "descricao": "O Vereador que a esta subscreve indica ao Poder Executivo Municipal, por meio da Secretaria de Gestão Integrada e Mobilidade Urbana, a necessidade de substituição de lâmpada queimada na Rua 13 de maio, esquina com rua Xingú, bairro São Bento, CEP 95703-154.",
+          "rua": "Xingú, 13 de maio, Bairro São Bento",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31613"
+        },
+        {
+          "numero": "IND 15/2025",
+          "descricao": "O Vereador que a esta subscreve indica ao Poder Executivo Municipal, por meio da Secretaria de Gestão Integrada e Mobilidade Urbana, a necessidade de substituição de lâmpada queimada na travessa Juarez Postal, n° 151, bairro Borgo, CEP 95705 -450.",
+          "rua": "Juarez Postal, Bairro Borgo",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31612"
+        },
+        {
+          "numero": "IND 14/2025",
+          "descricao": "O Vereador que a esta subscreve indica ao Poder Executivo Municipal, por meio da Secretaria de Gestão Integrada e Mobilidade Urbana, a necessidade de substituição de lâmpada queimada na travessa Juarez Postal, esquina com rua Marcos Pedro Flaiban, CEP 9570 5-450.",
+          "rua": "Juarez Postal, Marcos Pedro Flaiban",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31611"
+        },
+        {
+          "numero": "IND 13/2025",
+          "descricao": "O Vereador que a esta subscreve indica ao Poder Executivo Municipal, por meio da Secretaria de Gestão Integrada e Mobilidade Urbana, a necessidade de substituição de duas lâmpadas queimadas na rua Garibaldi, 559, CEP 95703 -062, em frente ao SUSFA.",
+          "rua": "Garibaldi",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31610"
+        },
+        {
+          "numero": "IND 4/2025",
+          "descricao": "O Vereador que a esta subscreve indica ao Poder Executivo Municipal, por meio da Secretaria de Gestão Integrada e Mobilidade Urbana, a necessidade de realizar a substituição de lâmpada queimada na Rua Luís Neves, em frente ao logradouro 350, bairro Borgo, CEP 95.705 -480.",
+          "rua": "Luís Neves, Bairro Borgo",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31594"
+        },
+        {
+          "numero": "IND 3/2025",
+          "descricao": "O Vereador que a esta subscreve indica ao Poder Executivo Municipal, por meio da Secretaria de Gestão Integrada e Mobilidade Urbana, a necessidade de substituição de lâmpada queimada na Rua Ângela Tecchio, n° 315, bairro Borgo, CEP 95705 -494.",
+          "rua": "Ângela Tecchio, Bairro Borgo",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31593"
+        },
+        {
+          "numero": "IND 838/2025",
+          "descricao": "Indica ao Prefeito Municipal, por meio da Secretaria de Gestão Integrada e Mobilidade Urbana, a necessidade de recuperar as condições de iluminação e salubridade da esquina da praça da Paróquia São Roque, na av. São Roque com rua Ver. Loreno Menegotto.",
+          "rua": "rua Ver",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/33206"
+        },
+        {
+          "numero": "IND 834/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal através da Secretaria competente troca de lâmpadas na Praça do bairro Imigrante.",
+          "rua": "Imigrante",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/33197"
+        }
+      ]
+    },
+    "Sinalização e Trânsito": {
+      "sheet_name": "Sinalização_e_Trânsito",
+      "total_indicacoes": 17,
+      "indicacoes": [
+        {
+          "numero": "IND 738/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal, através da Secretaria competente, a confecção de faixa de pedestre na Rua Aristides Bertuol, na intersecção com a Rua Domingos Antônio Cusin, Bairro Fenavinho.",
+          "rua": "Rua Aristides Bertuol",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32608"
+        },
+        {
+          "numero": "IND 582/2025",
+          "descricao": "Indica ao Poder Executivo Municipal, por meio da Secretaria de Gestão Integrada e Mobilidade Urbana, a necessidade de inserção de ondulação transversal de trânsito na rua Dr. Aguinaldo da Silva Leal, esquina com rua Fernandes Vieira, bairro Cidade Alta.",
+          "rua": "Rua Dr. Aguinaldo da Silva Leal",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32351"
+        },
+        {
+          "numero": "IND 546/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal que encaminhe a Secretaria de Mobilidade Urbana a pintura de Marcação de Área de Conflito nos Cruzamentos das ruas 1. Carlos Flores com R. Sen. Joaquim Pedro Salgado Filho; 2. da Rua Carlos Flores com Rua Xingú; e 3. da Rua Saldanha Marinho com Rua José Mário Mônaco.",
+          "rua": "Rua Carlos Flores / Rua Saldanha Marinho",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32305"
+        },
+        {
+          "numero": "IND 521/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal através da Secretaria de Mobilidade Urbana providências quanto ao estacionamento na Rua Pe. João Scalabrini, bairro Botafogo.",
+          "rua": "Rua Pe. João Scalabrini",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32275"
+        },
+        {
+          "numero": "IND 411/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal que encaminhe a Secretaria Competente a substituição de placa de sinalização de trânsito na esquina da Rua Presidente Costa e Silva.",
+          "rua": "Rua Presidente Costa e Silva",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32130"
+        },
+        {
+          "numero": "IND 378/2025",
+          "descricao": "Solicita ao Poder Público Municipal através da Secretaria de Mobilidade Urbana a criação de vaga de \"Carga e Descarga\" na Rua Mário Italvino Poletto em frente ao nº 277 bairro Planalto.",
+          "rua": "Rua Mário Italvino Poletto",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32086"
+        },
+        {
+          "numero": "IND 342/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal, por meio da Secretaria de Gestão Integrada e Mobilidade Urbana, a pintura de meio-fio na via rural em frente ao estabelecimento Haras Recanto Gaúcho.",
+          "rua": "Via rural - Haras Recanto Gaúcho",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32036"
+        },
+        {
+          "numero": "IND 224/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal, através da Secretaria competente, colocar placa de \"Carga e Descarga\" na Rua Paulo Salton, nº 865, bairro São Francisco.",
+          "rua": "Rua Paulo Salton",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31885"
+        },
+        {
+          "numero": "IND 195/2025",
+          "descricao": "Solicita ao Poder Executivo, por meio da Secretaria de Gestão Integrada e Mobilidade Urbana, que sejam pintadas linhas de estímulo à Redução de Velocidade (LRU) em frente à Empresa FVA, na rua Antônio Martineli, 571.",
+          "rua": "Rua Antônio Martineli",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31855"
+        },
+        {
+          "numero": "IND 194/2025",
+          "descricao": "Solicita ao Poder Executivo, por meio da Secretaria de Gestão Integrada e Mobilidade Urbana, que sejam pintadas linhas de estímulo à Redução de Velocidade (LRU) em frente à Empresa FVA, na rua Antônio Martineli, 571.",
+          "rua": "Rua Antônio Martineli",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31854"
+        },
+        {
+          "numero": "IND 185/2025",
+          "descricao": "Solicita ao Poder Executivo, por meio da Secretaria Municipal de Gestão Integrada e Mobilidade Urbana, a instalação de ondulação transversal (lombada física) na rua Domênico Zanetti, Lot. Zanetti.",
+          "rua": "Rua Domênico Zanetti",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31845"
+        },
+        {
+          "numero": "IND 164/2025",
+          "descricao": "Solicita ao Poder Executivo, por meio da Secretaria Municipal de Gestão Integrada e Mobilidade Urbana, a realização de pintura da faixa de pedestres e inserção da respectiva placa sinalizadora na rua Júlio Lorenzoni esq. com rua Cavalheiro José Farina, em frente ao logradouro n° 562, bairro Licorsul.",
+          "rua": "Júlio Lorenzoni Esq",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31811"
+        },
+        {
+          "numero": "IND 146/2025",
+          "descricao": "Solicita ao Poder Executivo, por meio da Secretaria Municipal de Gestão Integrada e Mobilidade Urbana, a realização de pintura da lombada existente na rua Eugênio Valduga, na altura do logradouro n° 336, bairro São Francisco, bem como a inserção de placa de advertência e ampliação da colocação de tachões na referida via.",
+          "rua": "Eugênio Valduga",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31786"
+        },
+        {
+          "numero": "IND 105/2025",
+          "descricao": "Solicita que se encaminhe para a Secretaria responsável, a criação de vaga em estacionamento de curta duração na rua Assis Brasil em frente ao n° 132, bairro Centro.",
+          "rua": "Assis Brasil Em Frente Ao N° 132",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31732"
+        },
+        {
+          "numero": "IND 798/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal através da Secretaria competente a colocação de placa de carga e descarga na Rua Sestílio Gaspari, Bairro Humaitá.",
+          "rua": "Rua Sestílio Gaspari",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32978"
+        },
+        {
+          "numero": "IND 18/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal, por meio da Secretaria de Gestão Integrada e Mobilidade Urbana, a reinstalação e fixaç ão da Placa Carga e descarga, localizada na Rua Assis Brasil, em frente ao número 881, no bairro São Francisco.",
+          "rua": "Assis Brasil, Bairro São Francisco",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31617"
+        },
+        {
+          "numero": "IND 841/2025",
+          "descricao": "Solicitação de reposição e readequação de placa de carga e descarga – Rua Sestílio Gaspari, Bairro Humaitá.",
+          "rua": "Rua Sestílio Gaspari",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/33215"
+        }
+      ]
+    },
+    "Pavimentação e Vias": {
+      "sheet_name": "Pavimentação_e_Vias",
+      "total_indicacoes": 23,
+      "indicacoes": [
+        {
+          "numero": "IND 685/2025",
+          "descricao": "Solicita ao Prefeito Municipal, por meio da Secretaria de Viação e Obras Públicas, o reparo dos paralelepípedos na rua Fortunato João Rizzardo, em frente ao número 85, bairro Borgo.",
+          "rua": "Rua Fortunato João Rizzardo",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32475"
+        },
+        {
+          "numero": "IND 438/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal através da Secretaria Competente providências relacionadas a pavimentação na Rua Aurino Argemiro Zandonai, bairro Santa Marta.",
+          "rua": "Rua Aurino Argemiro Zandonai",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32166"
+        },
+        {
+          "numero": "IND 418/2025",
+          "descricao": "Solicita ao Poder Público Municipal que solicite a Corsan o recapeamento da Rua Vitório Carraro e Nelson Carraro através do Programa RECAP.",
+          "rua": "Rua Vitório Carraro / Rua Nelson Carraro",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32138"
+        },
+        {
+          "numero": "IND 379/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal, através da Secretaria competente, melhorias na pavimentação da Rua Domênico Zanetti, cruzamento com a Rua Felice Pagot.",
+          "rua": "Rua Domênico Zanetti",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32087"
+        },
+        {
+          "numero": "IND 339/2025",
+          "descricao": "Solicita ao Poder Público Municipal através da Secretaria Competente o conserto com devida \"URGÊNCIA\", de buraco existente na Rua 7 de setembro, bairro Fenavinho.",
+          "rua": "Rua 7 de Setembro",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32033"
+        },
+        {
+          "numero": "IND 205/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal, encaminhar à Secretaria competente, para que realize aplicação de camada asfáltica ou concreto na Rua Fioravante Grando próximo ao nº 205, bairro Borgo.",
+          "rua": "Rua Fioravante Grando",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31865"
+        },
+        {
+          "numero": "IND 104/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal, por meio da Secretaria responsável, providências no sentido de sanar buraco na via, rua João Domingos Polli, bairro Zatt, em frente aos logradouros n° 544 e 546.",
+          "rua": "João Domingos Polli",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31731"
+        },
+        {
+          "numero": "IND 91/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal, por meio da Secretaria de Viação e Obras Públicas, o conserto/reparação de pavimento na Rua Batista Dosso, em frente ao n° 61 no bairro Santa Marta.",
+          "rua": "Batista Dosso",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31705"
+        },
+        {
+          "numero": "IND 89/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal, por meio da Secretaria de Viação e Obras Públicas, o conserto/reparação de pavimento na Rua Batista Dosso, em frente ao n° 61 no bairro Santa Marta.",
+          "rua": "Batista Dosso",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31703"
+        },
+        {
+          "numero": "IND 55/2025",
+          "descricao": "Solicita ao Poder Público Municipal, por meio da Secretaria de Gestão Integrada e Mobilidade Urbana, o conserto dos paralelepípedos na Rua Fortunato João Rizzardo, bairro Borgo, em frente aos logradouros de nºs 180 e 202.",
+          "rua": "Fortunato João Rizzardo",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31662"
+        },
+        {
+          "numero": "IND 749/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal através da Secretaria competente a solução de buraco de grande profundidade na Rua José Giovaninni Filho, em frente ao logradouro nº 29, bairro Licorsul.",
+          "rua": "Rua José Giovaninni Filho",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32690"
+        },
+        {
+          "numero": "IND 184/2025",
+          "descricao": "Solicita ao Poder Executivo, por meio da Secretaria Competente, a edificação de saída de emergência no pavimento Superior da Escola EMEF Professor Agostino Brun, no bairro Imigrante.",
+          "rua": "Escola EMEF Professor Agostino Brun",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31844"
+        },
+        {
+          "numero": "IND 778/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal através da Secretaria competente o reparo do asfalto na Rua Marques de Souza frontalmente ao Cemitério.",
+          "rua": "Rua Marques de Souza",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32874"
+        },
+        {
+          "numero": "IND 776/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal através da Secretaria competente a recomposição da camada asfáltica nas Ruas Assis Brasil com José Mário Mônaco.",
+          "rua": "Rua Assis Brasil com José Mário Mônaco",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32855"
+        },
+        {
+          "numero": "IND 34/2025",
+          "descricao": "Solicita ao Poder Executivo, por meio da Secretaria competente que realize estudo para o reparo do abrigo do Ponto de ônibus na rua Marques de Souza, nº 773, bairro São Francisco, próximo ao cemitério público municipal.",
+          "rua": "Marques de Souza, Bairro São Francisco",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31637"
+        },
+        {
+          "numero": "IND 839/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal através das Secretarias competentes estudos e providências para abertura da continuidade da Rua Sestílio Gasperi bairro Humaitá.",
+          "rua": "Rua Sestílio Gasperi bairro Humaitá",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/33211"
+        },
+        {
+          "numero": "IND 837/2025",
+          "descricao": "O vereador Sidnei Postal, PL, solicita ao Poder Executivo Municipal através das Secretarias competentes, melhorias na praça localizada no bairro Borgo, ladeada pelas ruas Elias Luchese e Ângelo Tecchio.",
+          "rua": "pelas ruas Elias Luchese e Ângelo Tecchio",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/33205"
+        },
+        {
+          "numero": "IND 836/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal através da Secretaria competente a destinação de um contâneir para lixo reciclável e um para lixo orgânico na Rua Artur Ziegler nas proximidades do nº 319.",
+          "rua": "Rua Artur Ziegler nas proximidades do nº 319",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/33202"
+        },
+        {
+          "numero": "IND 835/2025",
+          "descricao": "Solicitação de fiscalização e providências – dano em calçada possivelmente decorrente de canalização de rede de água da Rua José Giovanini Filho em frente ao nº 334.",
+          "rua": "Rua José Giovanini Filho em frente ao nº 334",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/33198"
+        },
+        {
+          "numero": "IND 857/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal através da Secretaria competente providências quanto a pavimentação asfáltica na Rua José Giovanini Filho próximo ao nº 58, Bairro Licorsul",
+          "rua": "Rua José Giovanini Filho próximo ao nº 58",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/33303"
+        },
+        {
+          "numero": "IND 856/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal através da Secretaria competente providências quanto a descarte irregular de lixo ao final da Rua Sestílio Gasperi, no bairro Humaitá.",
+          "rua": "Rua Sestílio Gasperi",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/33302"
+        },
+        {
+          "numero": "IND 854/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal através da Secretaria competente providências quanto as bocas de lobo na Rua Pedro Menegotto Sobrinho em frente ao nº 156 no Bairro Licorsul.",
+          "rua": "Rua Pedro Menegotto Sobrinho em frente ao nº 156 no Bairro Licorsul",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/33298"
+        },
+        {
+          "numero": "IND 884/2025",
+          "descricao": "Solicita ao Poder Público Municipal através da Secretaria competente a realização de obras de recuperação do pavimento asfáltico da Rua Ulisses Roman Ross, em praticamente toda a sua extensão.",
+          "rua": "Rua Ulisses Roman Ross",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/33367"
+        }
+      ]
+    },
+    "Manutenção e Limpeza Urbana": {
+      "sheet_name": "Manutenção_e_Limpeza_Urbana",
+      "total_indicacoes": 10,
+      "indicacoes": [
+        {
+          "numero": "IND 505/2025",
+          "descricao": "Solicita ao Prefeito Municipal, por meio da Secretaria Municipal de Meio Ambiente, a realização de poda das árvores ao longo da ciclovia que compreende a rua Xingú e av. Planalto, bairro São Bento, a fim de recuperar sua funcionalidade.",
+          "rua": "Rua Xingú / Av. Planalto",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32256"
+        },
+        {
+          "numero": "IND 358/2025",
+          "descricao": "Solicita ao Poder Público, por meio da Secretaria Municipal de Meio Ambiente, a poda e roçada de excesso de vegetação e a remoção de entulhos na rua Renato Menegotto, bairro Vila Nova I, ao lado da igreja São Cristóvão.",
+          "rua": "Rua Renato Menegotto",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32058"
+        },
+        {
+          "numero": "IND 297/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal, através das secretarias competentes, a desobstrução da tubulação de água pluvial da Rua José Benedetti, nº 1627, bairro Salgado.",
+          "rua": "Rua José Benedetti",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31979"
+        },
+        {
+          "numero": "IND 130/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal, por meio da Secretaria de Meio Ambiente, roçada da vegetação que se encontra excessiva ao longo de trecho do canteiro central da rua Visconde de São Gabriel.",
+          "rua": "Visconde De São Gabriel",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31762"
+        },
+        {
+          "numero": "IND 122/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal, por meio da Secretaria responsável, o pedido de conserto da boca de lobo na Rua Xingú, 559, bairro São Bento, em frente ao escritório Martini Advogados.",
+          "rua": "Xingú",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31753"
+        },
+        {
+          "numero": "IND 90/2025",
+          "descricao": "Solicita ao Poder Executivo, por meio da Secretaria Municipal de Viação e Obras, limpeza e reposição de meia-cana que dá escoamento da água pluvial no trecho do início da RS-444 ao trevo de acesso ao Barracão.",
+          "rua": "Localização não especificada",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31704"
+        },
+        {
+          "numero": "IND 52/2025",
+          "descricao": "Solicita ao Prefeito Municipal, por meio da Secretaria Municipal de Meio Ambiente, a necessidade de realizar a poda de árvores ao longo da ciclovia que compreende a rua Xingú, em frente aos nºs 521, 599; e av. Planalto, em frente às casas de nºs 718, 1044, e 1124, bairro São Bento.",
+          "rua": "Xingú",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31659"
+        },
+        {
+          "numero": "IND 799/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal através da Secretaria competente a colocação de tampas de galerias pluviais na intersecção da Rua São Paulo com Rua Assis Brasil.",
+          "rua": "Rua São Paulo x Rua Assis Brasil",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/33022"
+        },
+        {
+          "numero": "IND 793/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal através da Secretaria competente a desobstrução de boca de lobo na Rua Assis Brasil com Rua José Mario Mônaco.",
+          "rua": "Rua Assis Brasil com Rua José Mario Mônaco",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32937"
+        },
+        {
+          "numero": "IND 21/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal, por meio da Secretaria Municipal de Meio Ambiente, a necessidade de realizar a poda da vegetação localizada na Rua Mário Italvino Poleto, ao lado da casa n° 370, bairro Fenavinho.",
+          "rua": "Mário Italvino Poleto, Bairro Fenavinho",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31620"
+        }
+      ]
+    },
+    "Gestão de Resíduos": {
+      "sheet_name": "Gestão_de_Resíduos",
+      "total_indicacoes": 7,
+      "indicacoes": [
+        {
+          "numero": "IND 705/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal através da Secretaria do Meio Ambiente a colocação de dois containers para atender moradores do Condominio Edificio Tarsila da Rua Joaquim Manfredini, nº 260, bairro Borgo.",
+          "rua": "Rua Joaquim Manfredini",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32500"
+        },
+        {
+          "numero": "IND 332/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal, através da Secretaria de Meio Ambiente, providências relacionadas à coleta de lixo próxima ao campo do Grêmio Tuiuty.",
+          "rua": "Campo do Grêmio Tuiuty",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32023"
+        },
+        {
+          "numero": "IND 329/2025",
+          "descricao": "Solicita ao Poder Executivo, por meio da Secretaria Municipal de Meio Ambiente, a movimentação dos Containers de lixo na tv. Juarez Postal, nº 74, bairro Borgo.",
+          "rua": "Travessa Juarez Postal",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32020"
+        },
+        {
+          "numero": "IND 51/2025",
+          "descricao": "Solicita ao Poder Público Municipal, através da Secretaria de Meio Ambiente, a recolocação de lixeira removida na Rua Herny Hugo Dreher, próximo ao logradouro n° 92, bairro Planalto.",
+          "rua": "Herny Hugo Dreher",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31658"
+        },
+        {
+          "numero": "IND 6/2025",
+          "descricao": "O Vereador que a esta subscreve, solicita ao Prefeito Municipal, por meio da Secretaria Municipal de Meio Ambiente, o reparo ou substituição da lixeira de tamanho container localizado na Rua Assis Brasil, n° 115, bairro Centro, CEP 95700 -028.",
+          "rua": "Assis Brasil, Bairro Centro",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31596"
+        },
+        {
+          "numero": "IND 5/2025",
+          "descricao": "O Vereador que a esta subscreve, solicita ao Prefeito Municipal, por meio da Secretaria Municipal de Meio Ambiente, o reparo ou substituição da lixeira de tamanho container localizado na Av. Dr. Casagrande, próximo à esquina com Rua Olavo Bilac, bairro Centro, CEP 95700 -342.",
+          "rua": "Olavo Bilac, Bairro Centro",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31595"
+        },
+        {
+          "numero": "IND 889/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal através da Secretaria competente providências quanto a descarte irregular de material de obra misturada a lixo na Travessa Moron nº 92.",
+          "rua": "Travessa Moron nº 92",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/33398"
+        }
+      ]
+    },
+    "Planejamento Urbano e Programas": {
+      "sheet_name": "Planejamento_Urbano_e_Programas",
+      "total_indicacoes": 4,
+      "indicacoes": [
+        {
+          "numero": "IND 64/2025",
+          "descricao": "O vereador que abaixo subscreve, sugere ao Exmo. Sr. Prefeito Municipal Diogo Segabinazzi Siqueira, o presente Anteprojeto de Lei Ordinária que \"SUGERE AO PODER EXECUTIVO MUNICIPAL A CRIAÇÃO DE REGISTRO DETALHADO DAS MEDIDAS E LOCALIZAÇÕES DE INFRAESTRUTURA HIDRÁULICA URBANA, E DÁ OUTRAS PROVIDÊNCIAS\".",
+          "rua": "Localização não especificada",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31675"
+        },
+        {
+          "numero": "IND 756/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal através do Órgão de Defesa do Consumidor (PROCON) a atuação desse órgão de defesa do consumidor quanto às recorrentes irregularidades observadas em redes de supermercados no município.",
+          "rua": "N/A - Geral do município",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/32736"
+        },
+        {
+          "numero": "IND 47/2025",
+          "descricao": "Indica ao Excelentíssimo Senhor Prefeito Municipal de Bento Gonçalves, a criação e implementação do programa \"Via Livre\", destinado à utilização de via pública para atividades recreativas, culturais, esportivas e de lazer, mediante o fechamento pa rcial ou total da Rua Xingú ao tráfego de veículos motorizados, em domingos e feriados das 7h às 12h da manhã.",
+          "rua": "Xingú ao tráfego de veículos motorizados",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31654"
+        },
+        {
+          "numero": "IND 812/2025",
+          "descricao": "Sugere ao Exmo. Sr. Prefeito Municipal, Diogo Segabinazzi Siqueira, o presente Anteprojeto de Lei Ordinária que \"Institui o Programa de Escola Cívico-Militar Municipal (PECiM) na Escola Municipal de Ensino Fundamental Professora Maria Borges Frota – CAIC.\"",
+          "rua": "Localização não especificada",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/33083"
+        }
+      ]
+    },
+    "Espaços Públicos e Infraestrutura": {
+      "sheet_name": "Espaços_Públicos_e_Infraestrutu",
+      "total_indicacoes": 2,
+      "indicacoes": [
+        {
+          "numero": "IND 150/2025",
+          "descricao": "Solicita ao Poder Executivo Municipal, por meio das secretarias responsáveis, providências para a revitalização da Praça Pública Piazza Arrivare, localizada na Rua Ângelo Luchese, em frente ao n° 711, bairro Barracão.",
+          "rua": "Ângelo Luchese",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31792"
+        },
+        {
+          "numero": "IND 99/2025",
+          "descricao": "Solicito suas providências ao Poder Executivo Municipal, por meio da secretaria responsável, em relação às condições de trafegabilidade ou à impossibilidade de trânsito no passeio público da Rua Cavalheiro José Farina, n.º 934 (ao lado da LS Bolsas).",
+          "rua": "Cavalheiro José Farina",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31720"
+        }
+      ]
+    },
+    "Prédios Públicos": {
+      "sheet_name": "Prédios_Públicos",
+      "total_indicacoes": 1,
+      "indicacoes": [
+        {
+          "numero": "IND 184/2025",
+          "descricao": "Solicita ao Poder Executivo, por meio da Secretaria Competente, a edificação de saída de emergência no pavimento Superior da Escola EMEF Professor Agostino Brun, no bairro Imigrante.",
+          "rua": "Escola EMEF Professor Agostino Brun",
+          "pdfUrl": "https://sapl.camarabento.rs.gov.br/documento/download/31844"
+        }
+      ]
+    }
+  }
+}

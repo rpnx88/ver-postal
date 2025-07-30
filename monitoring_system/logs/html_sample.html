@@ -1,0 +1,3769 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="pt-br"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="pt-br">
+<!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8">
+    <title>SAPL - Sistema de Apoio ao Processo Legislativo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#343a40">
+
+    
+      <link rel="icon" href="/static/sapl/frontend/img/favicon.ico"  type="image/png">
+      
+        
+        <link href="/static/sapl/frontend/css/chunk-vendors.045ec640.css" rel="stylesheet" />
+<link href="/static/sapl/frontend/css/global.45591136.css" rel="stylesheet" />
+      
+
+      
+      
+
+    
+  </head>
+
+  <body>
+    <div class="page fadein">
+
+      
+        
+          
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <div class="container">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+
+                   
+
+
+  <ul class="navbar-nav">
+    
+      
+        
+          <li class="nav-item"><a class="nav-link" href="/">Início</a></li>
+        
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"href="#fakeLink"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Institucional
+             <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            
+                
+                  <li class="dropdown-item"><a href="/mesa-diretora/">Mesa Diretora</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sistema/bancada/">Bancadas Parlamentares</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sistema/bloco/">Blocos Parlamentares</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/comissao/">Comissões</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sistema/frente/">Frentes</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/parlamentar/">Parlamentares</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/audiencia/">Audiências Públicas</a></li>
+                
+            
+          </ul>
+        </li>
+      
+    
+      
+        
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"href="#fakeLink"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Documentos Administrativos
+             <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            
+                
+                  <li class="dropdown-item"><a href="/docadm/pesq-doc-adm">Pesquisar Documentos Administrativos</a></li>
+                
+            
+                
+            
+          </ul>
+        </li>
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"href="#fakeLink"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Atividade Legislativa
+             <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            
+                
+            
+                
+            
+                
+                  <li class="dropdown-item"><a href="/materia/pesquisar-materia">Matérias Legislativas</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sessao/pauta-sessao">Pautas das Sessões</a></li>
+                
+            
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sistema/relatorios/">Relatórios</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sessao/pesquisar-sessao">Sessões Plenárias</a></li>
+                
+            
+                
+            
+                
+            
+          </ul>
+        </li>
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"href="#fakeLink"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Normas Jurídicas
+             <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            
+                
+                  <li class="dropdown-item"><a href="/norma/pesquisar">Pesquisar Normas Jurídicas</a></li>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+          </ul>
+        </li>
+      
+    
+      
+        
+      
+    
+  </ul>
+
+ 
+
+                  <ul class="nav navbar-nav justify-content-end" id="autenticacao">
+                    <li class="nav-item dropdown pesquisa">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="/static/sapl/frontend/img/search.png"><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li class="dropdown-item">
+                            <form id="formulario-lexml" class="navbar-form search-form" method="get" action="">
+                              <input id="input-lexml" type="text" class="form-control" placeholder="Pesquisar no LexML" />
+                            </form>
+                          </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link"href="/sistema/ajuda"><img src="/static/sapl/frontend/img/manual.png"></a></li>
+                    
+                      <li class="nav-item"><a class="nav-link" href="/login/"><img src="/static/sapl/frontend/img/user.png"></a></li>
+                    
+                  </ul>
+
+                </div><!--/.nav-collapse -->
+              </div>
+            </nav>
+          
+        
+      
+      
+        
+        
+        <header class="masthead">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="/">
+                <img src="/media/sapl/casa/logotipo/Brasao.jpg"
+                alt="Logo" class="img-responsive" >
+                <span class="vcenter">Câmara Municipal de Bento Gonçalves
+                  <br/><small>Sistema de Apoio ao Processo Legislativo</small>
+                </span>
+              </a>
+            </div>
+            <div class="hidden-print">
+               
+
+
+
+ 
+            </div>
+          </div>
+        </header>
+        
+      
+
+      
+      
+        <main id="content" class="content page__row">
+          <div class="container">
+
+            
+            
+
+            
+            
+              <div class="clearfix">
+
+                
+
+
+
+                
+
+                
+                  <h1 class="page-header">
+                    
+                      Pesquisar Matéria Legislativa
+                    
+                  </h1>
+                
+
+              </div>
+            
+
+            
+            <div id="app"></div>
+
+            
+            
+
+  <div class="context-actions clearfix">
+    
+
+  
+    <div class="float-left">
+      
+        
+
+
+<div class=" d-flex justify-content-center">
+  <div class="actions btn-group" role="group">
+   
+    <a class="btn btn-outline-secondary" href="/materia/pesquisar-materia?format=csv&amp;tipo=8&amp;ementa=&amp;numero=&amp;numeracao__numero_materia=&amp;numero_protocolo=&amp;ano=2025&amp;autoria__autor=400&amp;autoria__primeiro_autor=unknown&amp;autoria__autor__tipo=&amp;autoria__autor__parlamentar_set__filiacao__partido=&amp;o=&amp;tipo_listagem=1&amp;tipo_origem_externa=&amp;numero_origem_externa=&amp;ano_origem_externa=&amp;data_origem_externa_0=&amp;data_origem_externa_1=&amp;local_origem_externa=&amp;data_apresentacao_0=&amp;data_apresentacao_1=&amp;data_publicacao_0=&amp;data_publicacao_1=&amp;relatoria__parlamentar_id=&amp;em_tramitacao=&amp;tramitacao__unidade_tramitacao_destino=&amp;tramitacao__status=&amp;materiaassunto__assunto=&amp;indexacao=&amp;regime_tramitacao=&amp;salvar=Pesquisar" title="Download do resultado da pesquisa em CSV."><i class="fas fa-file-csv"></i></a>
+    <a class="btn btn-outline-secondary" href="/materia/pesquisar-materia?format=xlsx&amp;tipo=8&amp;ementa=&amp;numero=&amp;numeracao__numero_materia=&amp;numero_protocolo=&amp;ano=2025&amp;autoria__autor=400&amp;autoria__primeiro_autor=unknown&amp;autoria__autor__tipo=&amp;autoria__autor__parlamentar_set__filiacao__partido=&amp;o=&amp;tipo_listagem=1&amp;tipo_origem_externa=&amp;numero_origem_externa=&amp;ano_origem_externa=&amp;data_origem_externa_0=&amp;data_origem_externa_1=&amp;local_origem_externa=&amp;data_apresentacao_0=&amp;data_apresentacao_1=&amp;data_publicacao_0=&amp;data_publicacao_1=&amp;relatoria__parlamentar_id=&amp;em_tramitacao=&amp;tramitacao__unidade_tramitacao_destino=&amp;tramitacao__status=&amp;materiaassunto__assunto=&amp;indexacao=&amp;regime_tramitacao=&amp;salvar=Pesquisar" title="Download do resultado da pesquisa em XLSX."><i class="fas fa-file-excel"></i></a>
+    <a class="btn btn-outline-secondary" href="/materia/pesquisar-materia?format=json&amp;tipo=8&amp;ementa=&amp;numero=&amp;numeracao__numero_materia=&amp;numero_protocolo=&amp;ano=2025&amp;autoria__autor=400&amp;autoria__primeiro_autor=unknown&amp;autoria__autor__tipo=&amp;autoria__autor__parlamentar_set__filiacao__partido=&amp;o=&amp;tipo_listagem=1&amp;tipo_origem_externa=&amp;numero_origem_externa=&amp;ano_origem_externa=&amp;data_origem_externa_0=&amp;data_origem_externa_1=&amp;local_origem_externa=&amp;data_apresentacao_0=&amp;data_apresentacao_1=&amp;data_publicacao_0=&amp;data_publicacao_1=&amp;relatoria__parlamentar_id=&amp;em_tramitacao=&amp;tramitacao__unidade_tramitacao_destino=&amp;tramitacao__status=&amp;materiaassunto__assunto=&amp;indexacao=&amp;regime_tramitacao=&amp;salvar=Pesquisar" title="Download do resultado da pesquisa em JSON."><i class="far fa-file-code"></i></a>
+   
+  </div>
+</div>
+
+      
+    </div>
+  
+
+    <div class="actions btn-group float-right pb-4" role="group">
+      
+      <a href="/sistema/search/" class="btn btn-outline-primary">
+          Pesquisa Textual
+      </a>
+      
+      
+    
+        <a href="/materia/pesquisar-materia" class="btn btn-outline-primary">Fazer nova pesquisa</a>
+    
+    </div>
+  
+  </div>
+
+  <div class="container-detail clearfix">
+    
+    
+
+    
+      <table class="table table-striped table-bordered">
+        <thead class="thead-default">
+          <tr><td><h3>Resultados</h3></td></tr>
+        </thead>
+        
+          
+            
+              <h3>Pesquisa detalhada concluída com sucesso! Foram encontradas 64 matérias.</h3>
+            
+          
+
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/33022">IND 799/2025 - Indicação</strong></a>
+                <a href="/relatorios/33022/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal através da Secretaria competente providências quanto a tampas de acesso às galerias pluviais – Rua São Paulo x Rua Assis Brasil.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>11 de Julho de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>1278/2025, <strong>Data Protocolo: </strong>
+                    11/07/2025 -
+                    <strong>Horário:</strong> 16:20:55
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;11 de Julho de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/33022/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/33022/cmbgind202500799a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32978">IND 798/2025 - Indicação</strong></a>
+                <a href="/relatorios/32978/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal a reposição e readequação de placa de carga e descarga – Rua Sestílio Gaspari, Bairro Humaitá em frente ao Residencial Melville 2.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>11 de Julho de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>1276/2025, <strong>Data Protocolo: </strong>
+                    11/07/2025 -
+                    <strong>Horário:</strong> 12:23:09
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;11 de Julho de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32978/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32978/cmbgind202500798a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32937">IND 793/2025 - Indicação</strong></a>
+                <a href="/relatorios/32937/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal através da Secretaria Competente que determine a empresa terceirizada da Corsan a desobstrução de boca de
+lobo na esquina da Rua Assis Brasil com Rua José Mario Mônaco, bem como na Rua Assis Brasil, nº 255, em frente ao Residencial Ilha Di Capri.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>11 de Julho de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>1270/2025, <strong>Data Protocolo: </strong>
+                    11/07/2025 -
+                    <strong>Horário:</strong> 7:57:02
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;11 de Julho de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32937/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32937/cmbgind202500793a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32874">IND 778/2025 - Indicação</strong></a>
+                <a href="/relatorios/32874/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal através da Secretaria Competente providências quanto ao reparo do asfalto em frente ao abrigo de ônibus na Rua Marques de Souza frontalmente ao Cemitério Público Municipal.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>9 de Julho de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>1249/2025, <strong>Data Protocolo: </strong>
+                    09/07/2025 -
+                    <strong>Horário:</strong> 16:38:04
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;9 de Julho de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32874/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32874/cmbgind202500778a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32855">IND 776/2025 - Indicação</strong></a>
+                <a href="/relatorios/32855/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal, através da Secretaria Competente, que determine à Corsan a recomposição da camada asfáltica na esquina das Ruas Assis Brasil com José Mário Mônaco em frente ao nº 16.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>9 de Julho de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>1247/2025, <strong>Data Protocolo: </strong>
+                    09/07/2025 -
+                    <strong>Horário:</strong> 13:30:25
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;9 de Julho de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32855/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32855/cmbgind202500776a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32736">IND 756/2025 - Indicação</strong></a>
+                <a href="/relatorios/32736/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal através do Órgão de Defesa do Consumidor (PROCON) a atuação desse órgão de defesa do consumidor quanto às recorrentes irregularidades observadas em redes de supermercados no município.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>7 de Julho de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>1218/2025, <strong>Data Protocolo: </strong>
+                    07/07/2025 -
+                    <strong>Horário:</strong> 14:07:17
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;7 de Julho de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32736/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32736/cmbgind202500756a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32690">IND 749/2025 - Indicação</strong></a>
+                <a href="/relatorios/32690/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal através da Secretaria competente a solução de buraco de grande profundidade na Rua José Giovaninni Filho, em frente ao logradouro nº 29, bairro Licorsul.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>4 de Julho de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>1210/2025, <strong>Data Protocolo: </strong>
+                    04/07/2025 -
+                    <strong>Horário:</strong> 15:50:31
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;4 de Julho de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32690/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32690/cmbgind202500749a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32608">IND 738/2025 - Indicação</strong></a>
+                <a href="/relatorios/32608/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal, através da Secretaria competente, a confecção de faixa de pedestre na Rua Aristides Bertuol, na intersecção
+com a Rua Domingos Antônio Cusin, Bairro Fenavinho.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>3 de Julho de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>1191/2025, <strong>Data Protocolo: </strong>
+                    03/07/2025 -
+                    <strong>Horário:</strong> 8:17:59
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;3 de Julho de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32608/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32608/cmbgind202500738a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32500">IND 705/2025 - Indicação</strong></a>
+                <a href="/relatorios/32500/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal através da Secretaria do Meio Ambiente a colocação de dois containers para atender moradores do Condomínio Edifício Tarsila da Rua Joaquim Manfredini, nº 260, bairro Borgo.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>24 de Junho de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>1142/2025, <strong>Data Protocolo: </strong>
+                    24/06/2025 -
+                    <strong>Horário:</strong> 15:53:47
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;24 de Junho de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32500/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32500/cmbgind202500705a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32475">IND 685/2025 - Indicação</strong></a>
+                <a href="/relatorios/32475/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Prefeito Municipal, por meio da Secretaria de Viação e Obras Públicas, o reparo dos paralelepípedos na rua Fortunato João Rizzardo, em frente ao número 85, bairro Borgo.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>18 de Junho de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>1111/2025, <strong>Data Protocolo: </strong>
+                    18/06/2025 -
+                    <strong>Horário:</strong> 8:19:55
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;18 de Junho de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32475/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32475/cmbgind202500685a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32351">IND 582/2025 - Indicação</strong></a>
+                <a href="/relatorios/32351/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Indica ao Poder Executivo Municipal, por meio da Secretaria de Gestão Integrada e Mobilidade Urbana, a necessidade de inserção de ondulação
+transversal de trânsito na rua Dr. Aguinaldo da Silva Leal, esquina com rua Fernandes Vieira, bairro Cidade Alta.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>30 de Maio de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>956/2025, <strong>Data Protocolo: </strong>
+                    30/05/2025 -
+                    <strong>Horário:</strong> 8:10:51
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;30 de Maio de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32351/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32351/cmbgind202500582a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32305">IND 546/2025 - Indicação</strong></a>
+                <a href="/relatorios/32305/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal que encaminhe a Secretaria de Mobilidade Urbana a pintura de Marcação de Área de Conflito nos Cruzamentos das ruas 1. Carlos Flores com R. Sen. Joaquim Pedro Salgado Filho; 2. da Rua Carlos Flores com Rua Xingú; e 3. da Rua Saldanha Marinho com Rua José Mário Mônaco.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>21 de Maio de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>902/2025, <strong>Data Protocolo: </strong>
+                    21/05/2025 -
+                    <strong>Horário:</strong> 9:44:19
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;21 de Maio de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32305/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32305/cmbgind202500546a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32275">IND 521/2025 - Indicação</strong></a>
+                <a href="/relatorios/32275/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal através da Secretaria de Mobilidade Urbana providências quanto ao estacionamento na Rua Pe. João Scalabrini, bairro Botafogo.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>15 de Maio de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>863/2025, <strong>Data Protocolo: </strong>
+                    15/05/2025 -
+                    <strong>Horário:</strong> 8:03:19
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;15 de Maio de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32275/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32275/cmbgind202500521a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32256">IND 505/2025 - Indicação</strong></a>
+                <a href="/relatorios/32256/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Prefeito Municipal, por meio da Secretaria Municipal de Meio Ambiente, a realização de poda das árvores ao longo da ciclovia que compreende a rua Xingú e av. Planalto, bairro São Bento, a fim de recuperar sua funcionalidade.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>12 de Maio de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>836/2025, <strong>Data Protocolo: </strong>
+                    12/05/2025 -
+                    <strong>Horário:</strong> 14:25:32
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;12 de Maio de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32256/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32256/cmbgind202500505a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32166">IND 438/2025 - Indicação</strong></a>
+                <a href="/relatorios/32166/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal através da Secretaria Competente providências relacionadas a pavimentação na Rua Aurino Argemiro Zandonai, bairro Santa Marta</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>11 de Abril de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>710/2025, <strong>Data Protocolo: </strong>
+                    11/04/2025 -
+                    <strong>Horário:</strong> 15:47:15
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;11 de Abril de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32166/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32166/cmbgind202500438a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32138">IND 418/2025 - Indicação</strong></a>
+                <a href="/relatorios/32138/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Público Municipal que solicite a Corsan o recapeamento da Rua Vitório Carraro e Nelson Carraro através do Programa RECAP.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>8 de Abril de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>681/2025, <strong>Data Protocolo: </strong>
+                    08/04/2025 -
+                    <strong>Horário:</strong> 15:59:24
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;8 de Abril de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32138/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32138/cmbgind202500418a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32130">IND 411/2025 - Indicação</strong></a>
+                <a href="/relatorios/32130/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal que encaminhe a Secretaria Competente a substituição de placa de sinalização de trânsito na esquina da Rua Presidente Costa e Silva.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>7 de Abril de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>666/2025, <strong>Data Protocolo: </strong>
+                    07/04/2025 -
+                    <strong>Horário:</strong> 8:59:58
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;7 de Abril de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32130/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32130/cmbgind202500411a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32087">IND 379/2025 - Indicação</strong></a>
+                <a href="/relatorios/32087/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal, através da Secretaria competente, melhorias na pavimentação da Rua Domênico Zanetti, cruzamento com a Rua Felice Pagot.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>27 de Março de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>614/2025, <strong>Data Protocolo: </strong>
+                    27/03/2025 -
+                    <strong>Horário:</strong> 15:56:58
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;27 de Março de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32087/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32087/cmbgind202500379a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32086">IND 378/2025 - Indicação</strong></a>
+                <a href="/relatorios/32086/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Público Municipal através da Secretaria de Mobilidade Urbana a criação de vaga de "Carga e Descarga" na Rua Mário Italvino Poletto em frente ao nº 277 bairro Planalto.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>27 de Março de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>613/2025, <strong>Data Protocolo: </strong>
+                    27/03/2025 -
+                    <strong>Horário:</strong> 15:46:37
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;27 de Março de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32086/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32086/cmbgind202500378a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32058">IND 358/2025 - Indicação</strong></a>
+                <a href="/relatorios/32058/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Público, por meio da Secretaria Municipal de Meio Ambiente, a poda e roçada de excesso de vegetação e a remoção de entulhos na
+rua Renato Menegotto, bairro Vila Nova I, ao lado da igreja São Cristóvão.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>24 de Março de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>581/2025, <strong>Data Protocolo: </strong>
+                    24/03/2025 -
+                    <strong>Horário:</strong> 8:39:19
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;24 de Março de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32058/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32058/cmbgind202500358a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32036">IND 342/2025 - Indicação</strong></a>
+                <a href="/relatorios/32036/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal, por meio da Secretaria de Gestão Integrada e Mobilidade Urbana, a pintura de meio-fio na via rural em frente ao estabelecimento Haras Recanto Gaúcho.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>19 de Março de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>556/2025, <strong>Data Protocolo: </strong>
+                    19/03/2025 -
+                    <strong>Horário:</strong> 15:41:33
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;19 de Março de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32036/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32036/cmbgind202500342a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32035">IND 341/2025 - Indicação</strong></a>
+                <a href="/relatorios/32035/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Público Municipal através da Secretaria de Gestão Integrada e Mobilidade Urbana, a troca de lâmpada, reator ou fotocélula na Rua Ângelo Marcon, nº 581, bairro São Roque.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>19 de Março de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>555/2025, <strong>Data Protocolo: </strong>
+                    19/03/2025 -
+                    <strong>Horário:</strong> 15:38:17
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;19 de Março de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32035/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32035/cmbgind202500341a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32033">IND 339/2025 - Indicação</strong></a>
+                <a href="/relatorios/32033/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Público Municipal através da Secretaria Competente o conserto com devida "URGÊNCIA" , de buraco existente na Rua 7 de setembro, bairro Fenavinho.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>19 de Março de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>553/2025, <strong>Data Protocolo: </strong>
+                    19/03/2025 -
+                    <strong>Horário:</strong> 15:33:03
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;19 de Março de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32033/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32033/cmbgind202500339a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32030">IND 336/2025 - Indicação</strong></a>
+                <a href="/relatorios/32030/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal através da Secretaria de Gestão Integrada e Mobilidade Urbana, a substituição de lâmpada na Rua Fiorelo Ross, nº 133, bairro Fenavinho.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>19 de Março de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>550/2025, <strong>Data Protocolo: </strong>
+                    19/03/2025 -
+                    <strong>Horário:</strong> 15:24:39
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;19 de Março de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32030/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32030/cmbgind202500336a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32023">IND 332/2025 - Indicação</strong></a>
+                <a href="/relatorios/32023/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal, através da Secretaria de Meio Ambiente, providências relacionadas à coleta de lixo próxima ao campo do Grêmio Tuiuty.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>18 de Março de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>538/2025, <strong>Data Protocolo: </strong>
+                    18/03/2025 -
+                    <strong>Horário:</strong> 15:33:13
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;18 de Março de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32023/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32023/cmbgind202500332a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32020">IND 329/2025 - Indicação</strong></a>
+                <a href="/relatorios/32020/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo, por meio da Secretaria Municipal de Meio Ambiente, a movimentação dos Containers de lixo na tv. Juarez Postal, nº 74, bairro Borgo.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>18 de Março de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>535/2025, <strong>Data Protocolo: </strong>
+                    18/03/2025 -
+                    <strong>Horário:</strong> 15:26:49
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;18 de Março de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32020/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32020/cmbgind202500329a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32018">IND 327/2025 - Indicação</strong></a>
+                <a href="/relatorios/32018/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo, por meio da Secretaria Municipal de Gestão Integrada e Mobilidade Urbana, a substituição de lâmpada queimada na Travessa Lucindo Ozelame, BR 470, próximo ao trevo para Faria Lemos.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>18 de Março de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>533/2025, <strong>Data Protocolo: </strong>
+                    18/03/2025 -
+                    <strong>Horário:</strong> 15:22:43
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;18 de Março de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32018/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32018/cmbgind202500327a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/32000">IND 313/2025 - Indicação</strong></a>
+                <a href="/relatorios/32000/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo, por meio da Secretaria Municipal de Gestão Integrada e Mobilidade Urbana, a troca de lâmpadas de iluminação pública na Via adjacente à BR 470 em frente ao CRD 00111 no Distrito de Tuiuty.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>17 de Março de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>515/2025, <strong>Data Protocolo: </strong>
+                    17/03/2025 -
+                    <strong>Horário:</strong> 8:22:52
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;17 de Março de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/32000/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/32000/cmbgind202500313a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/31979">IND 297/2025 - Indicação</strong></a>
+                <a href="/relatorios/31979/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal, através das secretarias competentes, a desobstrução da tubulação de água pluvial da Rua José Benedetti, nº 1627, bairro Salgado.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>13 de Março de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>489/2025, <strong>Data Protocolo: </strong>
+                    13/03/2025 -
+                    <strong>Horário:</strong> 9:59:52
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;13 de Março de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/31979/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/31979/cmbgind202500297a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/31914">IND 248/2025 - Indicação</strong></a>
+                <a href="/relatorios/31914/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal, através da Secretaria competente, a substituição de lâmpada na Rua Joaquim Manfredini em frente ao logradouro nº 67, bairro Borgo.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>6 de Março de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>404/2025, <strong>Data Protocolo: </strong>
+                    06/03/2025 -
+                    <strong>Horário:</strong> 8:24:59
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;6 de Março de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/31914/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/31914/cmbgind202500248a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/31885">IND 224/2025 - Indicação</strong></a>
+                <a href="/relatorios/31885/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal, através da Secretaria competente, colocar placa de 'Carga e Descarga' na Rua Paulo Salton, n° 865, bairro São Francisco.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>27 de Fevereiro de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>375/2025, <strong>Data Protocolo: </strong>
+                    27/02/2025 -
+                    <strong>Horário:</strong> 16:25:12
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;27 de Fevereiro de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/31885/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/31885/cmbgind202500224a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/31865">IND 205/2025 - Indicação</strong></a>
+                <a href="/relatorios/31865/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal, encaminhar à Secretaria competente, para que realize aplicação de camada asfáltica ou concreto na Rua Fioravante Grando próximo ao nº 205, bairro Borgo.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>27 de Fevereiro de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>348/2025, <strong>Data Protocolo: </strong>
+                    27/02/2025 -
+                    <strong>Horário:</strong> 8:29:38
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;27 de Fevereiro de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/31865/documentoacessorio">
+                          2
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/31865/cmbgind202500205a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/31855">IND 195/2025 - Indicação</strong></a>
+                <a href="/relatorios/31855/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo, por meio da Secretaria de Gestão Integrada e Mobilidade Urbana, que sejam pintadas linhas de estímulo à Redução de Velocidade (LRU) em frente à Empresa FVA, na rua Antônio Martineli, 571.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>26 de Fevereiro de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>338/2025, <strong>Data Protocolo: </strong>
+                    26/02/2025 -
+                    <strong>Horário:</strong> 18:16:16
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;26 de Fevereiro de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/31855/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/31855/cmbgind202500195a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/31854">IND 194/2025 - Indicação</strong></a>
+                <a href="/relatorios/31854/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo, por meio da Secretaria de Gestão Integrada e Mobilidade Urbana, que sejam pintadas linhas de estímulo à Redução de Velocidade (LRU) em frente à Empresa FVA, na rua Antônio Martineli, 571.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>26 de Fevereiro de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>337/2025, <strong>Data Protocolo: </strong>
+                    26/02/2025 -
+                    <strong>Horário:</strong> 18:09:53
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;26 de Fevereiro de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/31854/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/31854/cmbgind202500194a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/31845">IND 185/2025 - Indicação</strong></a>
+                <a href="/relatorios/31845/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo, por meio da Secretaria Municipal de Gestão Integrada e Mobilidade Urbana, a instalação de ondulação transversal (lombada física) na rua Domênico Zanetti, Lot. Zanetti.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>26 de Fevereiro de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>328/2025, <strong>Data Protocolo: </strong>
+                    26/02/2025 -
+                    <strong>Horário:</strong> 16:11:01
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;26 de Fevereiro de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/31845/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/31845/cmbgind202500185a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/31844">IND 184/2025 - Indicação</strong></a>
+                <a href="/relatorios/31844/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo, por meio da Secretaria Competente, a edificação de saída de emergência no pavimento Superior da Escola EMEF Professor Agostino Brun, no bairro Imigrante.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>26 de Fevereiro de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>327/2025, <strong>Data Protocolo: </strong>
+                    26/02/2025 -
+                    <strong>Horário:</strong> 16:07:40
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;26 de Fevereiro de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/31844/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/31844/cmbgind202500184a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/31811">IND 164/2025 - Indicação</strong></a>
+                <a href="/relatorios/31811/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo, por meio da Secretaria Municipal de Gestão Integrada e Mobilidade Urbana, a realização de pintura da faixa de pedestres e inserção da respectiva placa sinalizadora na rua Júlio Lorenzoni esq. com rua Cavalheiro José Farina, em frente ao logradouro n° 562, bairro Licorsul.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>21 de Fevereiro de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>286/2025, <strong>Data Protocolo: </strong>
+                    21/02/2025 -
+                    <strong>Horário:</strong> 8:31:24
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;21 de Fevereiro de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/31811/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/31811/cmbgind202500164a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/31792">IND 150/2025 - Indicação</strong></a>
+                <a href="/relatorios/31792/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal, por meio das secretarias responsáveis, providências para a revitalização da Praça Pública Piazza Arrivare, localizada na Rua Ângelo Luchese, em frente ao n° 711, bairro Barracão.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>18 de Fevereiro de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>262/2025, <strong>Data Protocolo: </strong>
+                    18/02/2025 -
+                    <strong>Horário:</strong> 11:15:56
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;18 de Fevereiro de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/31792/documentoacessorio">
+                          2
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/31792/cmbgind202500150a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/31786">IND 146/2025 - Indicação</strong></a>
+                <a href="/relatorios/31786/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo, por meio da Secretaria Municipal de Gestão Integrada e Mobilidade Urbana, a realização de pintura da lombada existente na rua Eugênio Valduga, na altura do logradouro n° 336, bairro São Francisco, bem como a inserção de placa de advertência e ampliação da colocação de tachões na referida via.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>14 de Fevereiro de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>251/2025, <strong>Data Protocolo: </strong>
+                    14/02/2025 -
+                    <strong>Horário:</strong> 14:32:45
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;14 de Fevereiro de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/31786/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/31786/cmbgind202500146a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/31762">IND 130/2025 - Indicação</strong></a>
+                <a href="/relatorios/31762/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal, por meio da Secretaria de Meio Ambiente, roçada da vegetação que se encontra excessiva ao longo de trecho do canteiro central da rua Visconde de São Gabriel.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>11 de Fevereiro de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>225/2025, <strong>Data Protocolo: </strong>
+                    11/02/2025 -
+                    <strong>Horário:</strong> 9:40:13
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;11 de Fevereiro de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/31762/documentoacessorio">
+                          2
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/31762/cmbgind202500130a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/31753">IND 122/2025 - Indicação</strong></a>
+                <a href="/relatorios/31753/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal, por meio da Secretaria responsável, o pedido de conserto da boca de lobo na Rua Xingú, 559, bairro São
+Bento, em frente ao escritório Martini Advogados.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>7 de Fevereiro de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>213/2025, <strong>Data Protocolo: </strong>
+                    07/02/2025 -
+                    <strong>Horário:</strong> 14:45:27
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;7 de Fevereiro de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/31753/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/31753/cmbgind202500122a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/31732">IND 105/2025 - Indicação</strong></a>
+                <a href="/relatorios/31732/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita que se encaminhe para a Secretaria responsável, a criação de vaga em estacionamento de curta duração na rua Assis Brasil em frente ao n° 132, bairro Centro.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>5 de Fevereiro de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>183/2025, <strong>Data Protocolo: </strong>
+                    05/02/2025 -
+                    <strong>Horário:</strong> 15:41:45
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;5 de Fevereiro de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/31732/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/31732/cmbgind202500105a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/31731">IND 104/2025 - Indicação</strong></a>
+                <a href="/relatorios/31731/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal, por meio da Secretaria responsável, providências no sentido de sanar buraco na via, rua João Domingos Polli, bairro Zatt, em frente aos logradouros n° 544 e 546.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>5 de Fevereiro de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>181/2025, <strong>Data Protocolo: </strong>
+                    05/02/2025 -
+                    <strong>Horário:</strong> 14:30:59
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;5 de Fevereiro de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/31731/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/31731/cmbgind202500104a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/31720">IND 99/2025 - Indicação</strong></a>
+                <a href="/relatorios/31720/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicito suas providências ao Poder Executivo Municipal, por meio da secretaria responsável, em relação às condições de trafegabilidade ou à impossibilidade de trânsito no passeio público da Rua Cavalheiro José Farina, n.º 934 (ao lado da LS Bolsas).</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>4 de Fevereiro de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>166/2025, <strong>Data Protocolo: </strong>
+                    04/02/2025 -
+                    <strong>Horário:</strong> 9:47:11
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;4 de Fevereiro de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/31720/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/31720/cmbgind202500099a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/31717">IND 98/2025 - Indicação</strong></a>
+                <a href="/relatorios/31717/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Público Municipal, através da Secretaria Municipal de Gestão Integrada e Mobilidade Urbana, a troca de lâmpada na esquina Joaquim Manfredini com a Cavalheiro José Farina, bairro São Francisco.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>3 de Fevereiro de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>161/2025, <strong>Data Protocolo: </strong>
+                    03/02/2025 -
+                    <strong>Horário:</strong> 14:17:35
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;3 de Fevereiro de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/31717/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/31717/cmbgind202500098a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/31705">IND 91/2025 - Indicação</strong></a>
+                <a href="/relatorios/31705/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal, por meio da Secretaria de Viação e Obras Públicas, o conserto/reparação de pavimento na Rua Batista Dosso, em frente ao n° 61 no bairro Santa Marta.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>31 de Janeiro de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>148/2025, <strong>Data Protocolo: </strong>
+                    31/01/2025 -
+                    <strong>Horário:</strong> 14:56:26
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;31 de Janeiro de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/31705/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/31705/cmbgind202500091a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/31704">IND 90/2025 - Indicação</strong></a>
+                <a href="/relatorios/31704/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo, por meio da Secretaria Municipal de Viação e Obras, limpeza e reposição de meia-cana que dá escoamento da água pluvial no trecho do início da RS-444 ao trevo de acesso ao Barracão.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>31 de Janeiro de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>147/2025, <strong>Data Protocolo: </strong>
+                    31/01/2025 -
+                    <strong>Horário:</strong> 13:40:55
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;31 de Janeiro de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/31704/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/31704/cmbgind202500090a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/31703">IND 89/2025 - Indicação</strong></a>
+                <a href="/relatorios/31703/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Executivo Municipal, por meio da Secretaria de Viação e Obras Públicas, o conserto/reparação de pavimento na Rua Batista Dosso, em frente ao n° 61 no bairro Santa Marta.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>31 de Janeiro de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>146/2025, <strong>Data Protocolo: </strong>
+                    31/01/2025 -
+                    <strong>Horário:</strong> 13:38:55
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;31 de Janeiro de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/31703/documentoacessorio">
+                          2
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/31703/cmbgind202500089a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/31675">IND 64/2025 - Indicação</strong></a>
+                <a href="/relatorios/31675/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">O vereador que abaixo subscreve, sugere ao Exmo. Sr. Prefeito Municipal Diogo Segabinazzi Siqueira, o presente Anteprojeto de Lei Ordinária que “SUGERE AO PODER EXECUTIVO MUNICIPAL A CRIAÇÃO DE REGISTRO DETALHADO DAS MEDIDAS E LOCALIZAÇÕES DE INFRAESTRUTURA
+HIDRÁULICA URBANA, E DÁ OUTRAS PROVIDÊNCIAS”.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>27 de Janeiro de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>111/2025, <strong>Data Protocolo: </strong>
+                    27/01/2025 -
+                    <strong>Horário:</strong> 16:24:01
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;27 de Janeiro de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/31675/documentoacessorio">
+                          1
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/31675/cmbgind202500064a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <strong><a href="/materia/31662">IND 55/2025 - Indicação</strong></a>
+                <a href="/relatorios/31662/etiqueta-materia-legislativa"><img src="/static/sapl/frontend/img/etiqueta.png" alt="Etiqueta Individual"></a>
+                </br>
+                <strong>Ementa:</strong>&nbsp;<div class="dont-break-out">Solicita ao Poder Público Municipal, por meio da Secretaria de Gestão Integrada e Mobilidade Urbana, o conserto dos paralelepípedos na Rua Fortunato João Rizzardo, bairro Borgo, em frente aos logradouros de n°s 180 e 202.</div>
+                </br>
+                
+                   <strong>Apresentação: </strong>24 de Janeiro de 2025
+                   </br>
+                
+                
+                
+                
+                    <strong>Protocolo: </strong>95/2025, <strong>Data Protocolo: </strong>
+                    24/01/2025 -
+                    <strong>Horário:</strong> 11:43:09
+                   </br>
+                
+                
+                  <strong>Autor:</strong>
+                  
+                    
+                         &nbsp;Vereador Postal
+                    
+                  
+                  </br>
+                
+
+                
+                  
+                  
+                  <strong>Localização Atual:</strong> &nbsp;Arquivo - ARQ</br>
+                  
+                  
+                    <strong>Status:</strong> &nbsp;Proposição arquivada</br>
+                    <strong>Data Fim Prazo (Tramitação):</strong>&nbsp;</br>
+                  
+                  
+                  
+                  
+                  <strong>Data da última Tramitação:</strong> &nbsp;24 de Janeiro de 2025</br>
+                  
+                  <strong>Última Ação:</strong> &nbsp; PROPOSIÇÃO ARQUIVADA E ENCAMINHADA AO EXECUTIVO.</br>
+                  
+                  
+                  
+                  
+                  
+                      <strong>Documentos Acessórios:</strong>
+                      <a href="/materia/31662/documentoacessorio">
+                          2
+                      </a>
+                      </br>
+                  
+                  <strong><a href="/media/sapl/public/materialegislativa/2025/31662/cmbgind202500055a.pdf">Texto Original</a></strong></br>
+                  
+                  
+                  
+                  <p></p>
+                  
+                
+                </td>
+            </tr>
+          
+        
+      </table>
+      
+  <nav>
+    <ul class="pagination justify-content-center">
+      
+        <li class="page-item disabled"><a class="page-link" href="">Anterior</a></li>
+      
+
+      
+        
+          <li  class="page-item active" >
+            <a class="page-link" href="?page=1&amp;tipo=8&amp;ementa=&amp;numero=&amp;numeracao__numero_materia=&amp;numero_protocolo=&amp;ano=2025&amp;autoria__autor=400&amp;autoria__primeiro_autor=unknown&amp;autoria__autor__tipo=&amp;autoria__autor__parlamentar_set__filiacao__partido=&amp;o=&amp;tipo_listagem=1&amp;tipo_origem_externa=&amp;numero_origem_externa=&amp;ano_origem_externa=&amp;data_origem_externa_0=&amp;data_origem_externa_1=&amp;local_origem_externa=&amp;data_apresentacao_0=&amp;data_apresentacao_1=&amp;data_publicacao_0=&amp;data_publicacao_1=&amp;relatoria__parlamentar_id=&amp;em_tramitacao=&amp;tramitacao__unidade_tramitacao_destino=&amp;tramitacao__status=&amp;materiaassunto__assunto=&amp;indexacao=&amp;regime_tramitacao=&amp;salvar=Pesquisar">1</a>
+          </li>
+        
+      
+        
+          <li >
+            <a class="page-link" href="?page=2&amp;tipo=8&amp;ementa=&amp;numero=&amp;numeracao__numero_materia=&amp;numero_protocolo=&amp;ano=2025&amp;autoria__autor=400&amp;autoria__primeiro_autor=unknown&amp;autoria__autor__tipo=&amp;autoria__autor__parlamentar_set__filiacao__partido=&amp;o=&amp;tipo_listagem=1&amp;tipo_origem_externa=&amp;numero_origem_externa=&amp;ano_origem_externa=&amp;data_origem_externa_0=&amp;data_origem_externa_1=&amp;local_origem_externa=&amp;data_apresentacao_0=&amp;data_apresentacao_1=&amp;data_publicacao_0=&amp;data_publicacao_1=&amp;relatoria__parlamentar_id=&amp;em_tramitacao=&amp;tramitacao__unidade_tramitacao_destino=&amp;tramitacao__status=&amp;materiaassunto__assunto=&amp;indexacao=&amp;regime_tramitacao=&amp;salvar=Pesquisar">2</a>
+          </li>
+        
+      
+
+      
+        <li class="page-item">
+          <a class="page-link" href="?page=2&amp;tipo=8&amp;ementa=&amp;numero=&amp;numeracao__numero_materia=&amp;numero_protocolo=&amp;ano=2025&amp;autoria__autor=400&amp;autoria__primeiro_autor=unknown&amp;autoria__autor__tipo=&amp;autoria__autor__parlamentar_set__filiacao__partido=&amp;o=&amp;tipo_listagem=1&amp;tipo_origem_externa=&amp;numero_origem_externa=&amp;ano_origem_externa=&amp;data_origem_externa_0=&amp;data_origem_externa_1=&amp;local_origem_externa=&amp;data_apresentacao_0=&amp;data_apresentacao_1=&amp;data_publicacao_0=&amp;data_publicacao_1=&amp;relatoria__parlamentar_id=&amp;em_tramitacao=&amp;tramitacao__unidade_tramitacao_destino=&amp;tramitacao__status=&amp;materiaassunto__assunto=&amp;indexacao=&amp;regime_tramitacao=&amp;salvar=Pesquisar">
+            Próxima
+          </a>
+        </li>
+      
+    </ul>
+  </nav>
+
+    
+    
+
+    
+
+
+  </div>
+
+  
+  
+
+
+
+          </div>
+        </main>
+
+      
+
+      
+
+
+      
+      <footer id="footer" class="footer page__row hidden-print">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+
+              <a class="footer__logo" href="#">
+                <a href="http://www.interlegis.leg.br/">
+                  <img src="/static/sapl/frontend/img/logo_interlegis.png" alt="Logo do Interlegis ">
+                </a>
+              </a>
+              <p>
+                <small>
+                  Desenvolvido pelo <a href="http://www.interlegis.leg.br/">Interlegis</a> em software livre e aberto.
+                </small>
+		<span>Release: 3.1.163</span>
+              </p>
+
+            </div>
+            <div class="col-md-4">
+              <a class="footer__logo" href="#">
+                <img src="/static/sapl/frontend/img/logo_cc.png" alt="Logo do Creative Commons BY SA">
+              </a>
+              <p>
+                <small>
+                  Conteúdo e dados sob licença <a href="https://creativecommons.org">Creative Commons</a> 4.0<br><a href="https://creativecommons.org/licenses/by/4.0/">Atribuir Fonte - Compartilhar Igual</a>
+                </small>
+              </p>
+            </div>
+            <div class="col-md-4">
+              
+              <address>
+                <small>
+                  <strong>
+                    <span class="org">Câmara Municipal de Bento Gonçalves</span>
+                  </strong>
+                  <br>
+                  <span class="street-address">Av. Dr. Casagrande, 270</span>
+                  <br>
+                  CEP: <span class="postal-code">95700-342</span>
+                  |
+                  Telefone: <span>(54) 2105-9700</span>
+                  <br>
+                  <small><a href="/api/schema/swagger-ui/">OpenAPI</a></small> |
+                  <a href="http://www.camarabento.rs.gov.br" class="url">Site</a> |
+                  <a href="mailto:camarabento@camarabento.rs.gov.br" class="email">Fale Conosco</a>
+                </small>
+              </address>
+              
+
+
+
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    
+
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+
+    
+
+      
+        
+        <script src="/static/sapl/frontend/js/chunk-vendors.e8ab4373.js" ></script>
+<script src="/static/sapl/frontend/js/global.8ef6e932.js" ></script>
+      
+
+      
+      
+
+      
+
+  <script type="text/javascript" >
+
+  function pesquisaAvancada(){
+     $('.pesquisa_avancada').toggle();
+
+     var id_btn = "#btn_pesquisa_avancada_id";
+     if ($(id_btn).val().endsWith('>>>')){
+       $(id_btn).val($(id_btn).val().replace('>>>', '<<<'))
+     }else{
+       $(id_btn).val($(id_btn).val().replace('<<<', '>>>'))
+     }
+  };
+  </script>
+  
+
+      <script type="text/javascript" >
+        function inIframe () {
+          try {
+              return window.location !== window.parent.location
+          } catch (e) {
+              return true;
+          }
+        }
+        $(document).ready(function(){
+          let iframe_set_backend = false
+          if (iframe_set_backend && !inIframe() ) {
+            location.href = location.origin + '?iframe=0'
+          }
+
+          var form = document.getElementById("formulario-lexml");
+          $("#input-lexml").change(function(){
+            let value = $("#input-lexml").val();
+            let url = "/sistema/lexml/request_search/xxx/"
+            url = url.replace('xxx', value)
+            form.action = url;
+          });
+
+        });
+      </script>
+
+    
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+      
+    
+
+    
+  </body>
+</html>

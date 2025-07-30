@@ -1,0 +1,369 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 31, 41, 55;
+  --background-end-rgb: 17, 24, 39;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+/* Smooth transitions */
+* {
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+/* Better focus visibility */
+*:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+/* Improve text rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Animation utilities */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInUp {
+  from { 
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to { 
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.animate-slide-in-up {
+  animation: slideInUp 0.5s ease-in-out;
+}
+
+/* Glass morphism effect */
+.glass {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  background: rgba(31, 41, 55, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Loading animation */
+.loading {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #3b82f6;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Responsive grid improvements */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Enhanced hover effects */
+.hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Chart container improvements */
+.recharts-responsive-container {
+  font-family: inherit;
+}
+
+.recharts-tooltip-wrapper {
+  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+}
+
+/* Mobile chart improvements */
+@media (max-width: 768px) {
+  /* Improve bar click targets on mobile */
+  .recharts-bar-rectangle {
+    cursor: pointer;
+    stroke-width: 0;
+  }
+  
+  /* Expand clickable area for bars on mobile */
+  .recharts-bar-rectangles {
+    cursor: pointer;
+  }
+  
+  /* Make the entire bar area more touch-friendly */
+  .recharts-bar-rectangles path {
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  /* Improve hover states on mobile (touch) */
+  .recharts-bar-rectangles path:active {
+    filter: brightness(1.1);
+    transform: scale(1.02);
+  }
+  
+  /* Horizontal scroll styling for mobile charts */
+  .mobile-chart-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #4b5563 transparent;
+  }
+  
+  .mobile-chart-scroll::-webkit-scrollbar {
+    height: 4px;
+  }
+  
+  .mobile-chart-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .mobile-chart-scroll::-webkit-scrollbar-thumb {
+    background: #4b5563;
+    border-radius: 2px;
+  }
+  
+  .mobile-chart-scroll::-webkit-scrollbar-thumb:hover {
+    background: #6b7280;
+  }
+}
+
+/* Enhanced touch targets for mobile */
+@media (max-width: 768px) and (pointer: coarse) {
+  .recharts-bar {
+    min-height: 30px;
+  }
+  
+  /* Make text more readable on small screens */
+  .recharts-text {
+    font-size: 10px !important;
+  }
+  
+  /* Improve axis text visibility */
+  .recharts-cartesian-axis-tick-value {
+    font-size: 9px !important;
+  }
+}
+
+/* Button improvements */
+.btn {
+  @apply px-4 py-2 rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700 active:bg-blue-800;
+}
+
+.btn-secondary {
+  @apply bg-gray-600 text-white hover:bg-gray-700 active:bg-gray-800;
+}
+
+/* Card improvements */
+.card {
+  @apply bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300;
+}
+
+.card-header {
+  @apply p-6 border-b border-gray-700;
+}
+
+.card-content {
+  @apply p-6;
+}
+
+.card-footer {
+  @apply p-6 border-t border-gray-700;
+}
+
+/* Mobile Chart Scroll Indicators */
+@media (max-width: 768px) {
+  /* Enhanced scroll indicators */
+  .mobile-scroll-indicator {
+    animation: scrollHint 2s ease-in-out infinite;
+  }
+  
+  @keyframes scrollHint {
+    0%, 100% { 
+      opacity: 0.6;
+      transform: scale(1);
+    }
+    50% { 
+      opacity: 1;
+      transform: scale(1.1);
+    }
+  }
+
+  /* Swipe animation */
+  .swipe-icon {
+    animation: swipeHint 3s ease-in-out infinite;
+  }
+  
+  @keyframes swipeHint {
+    0%, 100% { 
+      transform: translateX(0);
+    }
+    25% { 
+      transform: translateX(-5px);
+    }
+    75% { 
+      transform: translateX(5px);
+    }
+  }
+
+  /* Enhanced mobile instruction styling */
+  .mobile-instruction {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1));
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    box-shadow: 0 4px 6px rgba(59, 130, 246, 0.1);
+    animation: instructionPulse 4s ease-in-out infinite;
+  }
+  
+  @keyframes instructionPulse {
+    0%, 100% { 
+      box-shadow: 0 4px 6px rgba(59, 130, 246, 0.1);
+    }
+    50% { 
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+    }
+  }
+
+  /* Scroll dots indicator */
+  .scroll-dots {
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4px);
+    border-radius: 20px;
+    padding: 4px 8px;
+  }
+
+  /* Dynamic percentage labels */
+  .recharts-label-list text {
+    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.8));
+    font-weight: bold;
+  }
+}
+
+/* Scroll button improvements */
+.scroll-button {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scroll-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.scroll-button:active {
+  transform: scale(0.95);
+}
+
+/* Enhanced chart responsiveness */
+@media (max-width: 768px) {
+  .recharts-responsive-container {
+    min-height: 320px;
+  }
+  
+  /* Better percentage visibility on mobile */
+  .recharts-label-list {
+    font-size: 10px !important;
+    font-weight: bold !important;
+  }
+  
+  /* Chart container with better scroll indication */
+  .mobile-chart-container {
+    position: relative;
+  }
+  
+  .mobile-chart-container::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: linear-gradient(to right, transparent, rgba(31, 41, 55, 0.8));
+    pointer-events: none;
+    z-index: 5;
+  }
+  
+  .mobile-chart-container::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: linear-gradient(to left, transparent, rgba(31, 41, 55, 0.8));
+    pointer-events: none;
+    z-index: 5;
+  }
+}

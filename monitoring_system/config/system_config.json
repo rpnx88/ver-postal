@@ -1,0 +1,39 @@
+{
+  "system_info": {
+    "name": "Monitor de Indicações - Câmara Bento Gonçalves",
+    "version": "1.0.0",
+    "created": "2025-07-14",
+    "status": "active"
+  },
+  "monitoring": {
+    "url": "https://sapl.camarabento.rs.gov.br/materia/pesquisar-materia?tipo=8&ementa=&numero=&numeracao__numero_materia=&numero_protocolo=&ano=2025&autoria__autor=400&autoria__primeiro_autor=unknown&autoria__autor__tipo=&autoria__autor__parlamentar_set__filiacao__partido=&o=&tipo_listagem=1&tipo_origem_externa=&numero_origem_externa=&ano_origem_externa=&data_origem_externa_0=&data_origem_externa_1=&local_origem_externa=&data_apresentacao_0=&data_apresentacao_1=&data_publicacao_0=&data_publicacao_1=&relatoria__parlamentar_id=&em_tramitacao=&tramitacao__unidade_tramitacao_destino=&tramitacao__status=&materiaassunto__assunto=&indexacao=&regime_tramitacao=&salvar=Pesquisar",
+    "cutoff_date": "2025-07-22",
+    "vereador": "Vereador Postal",
+    "vereador_id": "400",
+    "schedule": "every_30_minutes",
+    "timeout_seconds": 30
+  },
+  "paths": {
+    "dashboard_file": "/home/ubuntu/dashboard_indicacoes/app/public/dashboard_data.json",
+    "backup_dir": "/home/ubuntu/dashboard_indicacoes/monitoring_system/backups",
+    "logs_dir": "/home/ubuntu/dashboard_indicacoes/monitoring_system/logs",
+    "scripts_dir": "/home/ubuntu/dashboard_indicacoes/monitoring_system/scripts"
+  },
+  "categorization_rules": {
+    "Iluminação Pública": ["iluminação", "lâmpada", "luminária", "poste", "luz", "fotocélula", "reator", "substituição de lâmpada", "troca de lâmpada"],
+    "Sinalização e Trânsito": ["sinalização", "trânsito", "placa", "faixa", "pedestre", "lombada", "ondulação", "estacionamento", "carga e descarga", "meio-fio", "velocidade", "cruzamento", "marcação", "tachão"],
+    "Pavimentação e Vias": ["pavimentação", "asfalto", "paralelepípedo", "buraco", "via", "rua", "recapeamento", "camada asfáltica", "concreto", "conserto", "reparo"],
+    "Manutenção e Limpeza Urbana": ["poda", "roçada", "vegetação", "limpeza", "boca de lobo", "galeria", "pluvial", "desobstrução", "meia-cana", "escoamento", "tampa"],
+    "Gestão de Resíduos": ["lixo", "container", "coleta", "resíduo", "lixeira", "recolhimento"],
+    "Planejamento Urbano e Programas": ["anteprojeto", "lei", "programa", "projeto", "criação", "registro", "procon", "defesa do consumidor", "infraestrutura hidráulica"],
+    "Espaços Públicos e Infraestrutura": ["praça", "passeio público", "revitalização", "trafegabilidade", "espaço público", "calçada"],
+    "Prédios Públicos": ["escola", "prédio público", "edificação", "saída de emergência", "emef", "unidade básica", "posto de saúde"]
+  },
+  "features": {
+    "auto_backup": true,
+    "auto_categorization": true,
+    "street_extraction": true,
+    "duplicate_prevention": true,
+    "error_recovery": true
+  }
+}
