@@ -1,0 +1,555 @@
+{
+  "timestamp": "2025-07-25T19:46:10.772446",
+  "total_updated": 78,
+  "total_not_found": 0,
+  "backup_file": "/home/ubuntu/dashboard_indicacoes/app/public/dashboard_data_backup_before_pdf_links_20250725_194610.json",
+  "updated_details": [
+    {
+      "numero": "IND 341/2025",
+      "categoria": "Iluminação Pública",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32035",
+      "documentoId": "32035"
+    },
+    {
+      "numero": "IND 336/2025",
+      "categoria": "Iluminação Pública",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32030",
+      "documentoId": "32030"
+    },
+    {
+      "numero": "IND 327/2025",
+      "categoria": "Iluminação Pública",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32018",
+      "documentoId": "32018"
+    },
+    {
+      "numero": "IND 313/2025",
+      "categoria": "Iluminação Pública",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32000",
+      "documentoId": "32000"
+    },
+    {
+      "numero": "IND 248/2025",
+      "categoria": "Iluminação Pública",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31914",
+      "documentoId": "31914"
+    },
+    {
+      "numero": "IND 98/2025",
+      "categoria": "Iluminação Pública",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31717",
+      "documentoId": "31717"
+    },
+    {
+      "numero": "IND 16/2025",
+      "categoria": "Iluminação Pública",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31613",
+      "documentoId": "31613"
+    },
+    {
+      "numero": "IND 15/2025",
+      "categoria": "Iluminação Pública",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31612",
+      "documentoId": "31612"
+    },
+    {
+      "numero": "IND 14/2025",
+      "categoria": "Iluminação Pública",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31611",
+      "documentoId": "31611"
+    },
+    {
+      "numero": "IND 13/2025",
+      "categoria": "Iluminação Pública",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31610",
+      "documentoId": "31610"
+    },
+    {
+      "numero": "IND 4/2025",
+      "categoria": "Iluminação Pública",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31594",
+      "documentoId": "31594"
+    },
+    {
+      "numero": "IND 3/2025",
+      "categoria": "Iluminação Pública",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31593",
+      "documentoId": "31593"
+    },
+    {
+      "numero": "IND 838/2025",
+      "categoria": "Iluminação Pública",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/33206",
+      "documentoId": "33206"
+    },
+    {
+      "numero": "IND 834/2025",
+      "categoria": "Iluminação Pública",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/33197",
+      "documentoId": "33197"
+    },
+    {
+      "numero": "IND 738/2025",
+      "categoria": "Sinalização e Trânsito",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32608",
+      "documentoId": "32608"
+    },
+    {
+      "numero": "IND 582/2025",
+      "categoria": "Sinalização e Trânsito",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32351",
+      "documentoId": "32351"
+    },
+    {
+      "numero": "IND 546/2025",
+      "categoria": "Sinalização e Trânsito",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32305",
+      "documentoId": "32305"
+    },
+    {
+      "numero": "IND 521/2025",
+      "categoria": "Sinalização e Trânsito",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32275",
+      "documentoId": "32275"
+    },
+    {
+      "numero": "IND 411/2025",
+      "categoria": "Sinalização e Trânsito",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32130",
+      "documentoId": "32130"
+    },
+    {
+      "numero": "IND 378/2025",
+      "categoria": "Sinalização e Trânsito",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32086",
+      "documentoId": "32086"
+    },
+    {
+      "numero": "IND 342/2025",
+      "categoria": "Sinalização e Trânsito",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32036",
+      "documentoId": "32036"
+    },
+    {
+      "numero": "IND 224/2025",
+      "categoria": "Sinalização e Trânsito",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31885",
+      "documentoId": "31885"
+    },
+    {
+      "numero": "IND 195/2025",
+      "categoria": "Sinalização e Trânsito",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31855",
+      "documentoId": "31855"
+    },
+    {
+      "numero": "IND 194/2025",
+      "categoria": "Sinalização e Trânsito",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31854",
+      "documentoId": "31854"
+    },
+    {
+      "numero": "IND 185/2025",
+      "categoria": "Sinalização e Trânsito",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31845",
+      "documentoId": "31845"
+    },
+    {
+      "numero": "IND 164/2025",
+      "categoria": "Sinalização e Trânsito",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31811",
+      "documentoId": "31811"
+    },
+    {
+      "numero": "IND 146/2025",
+      "categoria": "Sinalização e Trânsito",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31786",
+      "documentoId": "31786"
+    },
+    {
+      "numero": "IND 105/2025",
+      "categoria": "Sinalização e Trânsito",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31732",
+      "documentoId": "31732"
+    },
+    {
+      "numero": "IND 798/2025",
+      "categoria": "Sinalização e Trânsito",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32978",
+      "documentoId": "32978"
+    },
+    {
+      "numero": "IND 18/2025",
+      "categoria": "Sinalização e Trânsito",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31617",
+      "documentoId": "31617"
+    },
+    {
+      "numero": "IND 841/2025",
+      "categoria": "Sinalização e Trânsito",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/33215",
+      "documentoId": "33215"
+    },
+    {
+      "numero": "IND 685/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32475",
+      "documentoId": "32475"
+    },
+    {
+      "numero": "IND 438/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32166",
+      "documentoId": "32166"
+    },
+    {
+      "numero": "IND 418/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32138",
+      "documentoId": "32138"
+    },
+    {
+      "numero": "IND 379/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32087",
+      "documentoId": "32087"
+    },
+    {
+      "numero": "IND 339/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32033",
+      "documentoId": "32033"
+    },
+    {
+      "numero": "IND 205/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31865",
+      "documentoId": "31865"
+    },
+    {
+      "numero": "IND 104/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31731",
+      "documentoId": "31731"
+    },
+    {
+      "numero": "IND 91/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31705",
+      "documentoId": "31705"
+    },
+    {
+      "numero": "IND 89/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31703",
+      "documentoId": "31703"
+    },
+    {
+      "numero": "IND 55/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31662",
+      "documentoId": "31662"
+    },
+    {
+      "numero": "IND 749/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32690",
+      "documentoId": "32690"
+    },
+    {
+      "numero": "IND 184/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31844",
+      "documentoId": "31844"
+    },
+    {
+      "numero": "IND 778/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32874",
+      "documentoId": "32874"
+    },
+    {
+      "numero": "IND 776/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32855",
+      "documentoId": "32855"
+    },
+    {
+      "numero": "IND 34/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31637",
+      "documentoId": "31637"
+    },
+    {
+      "numero": "IND 839/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/33211",
+      "documentoId": "33211"
+    },
+    {
+      "numero": "IND 837/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/33205",
+      "documentoId": "33205"
+    },
+    {
+      "numero": "IND 836/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/33202",
+      "documentoId": "33202"
+    },
+    {
+      "numero": "IND 835/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/33198",
+      "documentoId": "33198"
+    },
+    {
+      "numero": "IND 857/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/33303",
+      "documentoId": "33303"
+    },
+    {
+      "numero": "IND 856/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/33302",
+      "documentoId": "33302"
+    },
+    {
+      "numero": "IND 854/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/33298",
+      "documentoId": "33298"
+    },
+    {
+      "numero": "IND 884/2025",
+      "categoria": "Pavimentação e Vias",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/33367",
+      "documentoId": "33367"
+    },
+    {
+      "numero": "IND 505/2025",
+      "categoria": "Manutenção e Limpeza Urbana",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32256",
+      "documentoId": "32256"
+    },
+    {
+      "numero": "IND 358/2025",
+      "categoria": "Manutenção e Limpeza Urbana",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32058",
+      "documentoId": "32058"
+    },
+    {
+      "numero": "IND 297/2025",
+      "categoria": "Manutenção e Limpeza Urbana",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31979",
+      "documentoId": "31979"
+    },
+    {
+      "numero": "IND 130/2025",
+      "categoria": "Manutenção e Limpeza Urbana",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31762",
+      "documentoId": "31762"
+    },
+    {
+      "numero": "IND 122/2025",
+      "categoria": "Manutenção e Limpeza Urbana",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31753",
+      "documentoId": "31753"
+    },
+    {
+      "numero": "IND 90/2025",
+      "categoria": "Manutenção e Limpeza Urbana",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31704",
+      "documentoId": "31704"
+    },
+    {
+      "numero": "IND 52/2025",
+      "categoria": "Manutenção e Limpeza Urbana",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31659",
+      "documentoId": "31659"
+    },
+    {
+      "numero": "IND 799/2025",
+      "categoria": "Manutenção e Limpeza Urbana",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/33022",
+      "documentoId": "33022"
+    },
+    {
+      "numero": "IND 793/2025",
+      "categoria": "Manutenção e Limpeza Urbana",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32937",
+      "documentoId": "32937"
+    },
+    {
+      "numero": "IND 21/2025",
+      "categoria": "Manutenção e Limpeza Urbana",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31620",
+      "documentoId": "31620"
+    },
+    {
+      "numero": "IND 705/2025",
+      "categoria": "Gestão de Resíduos",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32500",
+      "documentoId": "32500"
+    },
+    {
+      "numero": "IND 332/2025",
+      "categoria": "Gestão de Resíduos",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32023",
+      "documentoId": "32023"
+    },
+    {
+      "numero": "IND 329/2025",
+      "categoria": "Gestão de Resíduos",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32020",
+      "documentoId": "32020"
+    },
+    {
+      "numero": "IND 51/2025",
+      "categoria": "Gestão de Resíduos",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31658",
+      "documentoId": "31658"
+    },
+    {
+      "numero": "IND 6/2025",
+      "categoria": "Gestão de Resíduos",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31596",
+      "documentoId": "31596"
+    },
+    {
+      "numero": "IND 5/2025",
+      "categoria": "Gestão de Resíduos",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31595",
+      "documentoId": "31595"
+    },
+    {
+      "numero": "IND 889/2025",
+      "categoria": "Gestão de Resíduos",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/33398",
+      "documentoId": "33398"
+    },
+    {
+      "numero": "IND 64/2025",
+      "categoria": "Planejamento Urbano e Programas",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31675",
+      "documentoId": "31675"
+    },
+    {
+      "numero": "IND 756/2025",
+      "categoria": "Planejamento Urbano e Programas",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/32736",
+      "documentoId": "32736"
+    },
+    {
+      "numero": "IND 47/2025",
+      "categoria": "Planejamento Urbano e Programas",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31654",
+      "documentoId": "31654"
+    },
+    {
+      "numero": "IND 812/2025",
+      "categoria": "Planejamento Urbano e Programas",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/33083",
+      "documentoId": "33083"
+    },
+    {
+      "numero": "IND 150/2025",
+      "categoria": "Espaços Públicos e Infraestrutura",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31792",
+      "documentoId": "31792"
+    },
+    {
+      "numero": "IND 99/2025",
+      "categoria": "Espaços Públicos e Infraestrutura",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31720",
+      "documentoId": "31720"
+    },
+    {
+      "numero": "IND 184/2025",
+      "categoria": "Prédios Públicos",
+      "old_url": "https://sapl.camarabento.rs.gov.br/",
+      "new_url": "https://sapl.camarabento.rs.gov.br/documento/download/31844",
+      "documentoId": "31844"
+    }
+  ],
+  "not_found_details": []
+}
